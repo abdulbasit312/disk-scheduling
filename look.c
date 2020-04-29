@@ -89,8 +89,7 @@ int main(){
   }
 
   printf("Total seek time is %d\n", seek);
-  avg = seek/(float)q_size;
-  printf("Average seek time is %f\n", avg);
+  
 
   return 0;
 }
